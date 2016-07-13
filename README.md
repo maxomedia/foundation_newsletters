@@ -1,2 +1,2 @@
 # foundation_newsletters
-Trying to enhance the current extremly hateful newsletter workflow.
+An attempt to improve our newsletter workflow.
