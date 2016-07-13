@@ -1,8 +1,8 @@
 # foundation_newsletters
-An attempt to improve our newsletter workflow. You can use SASS and Foundation ###WITHOUT ANY TABLES### to write proper tested email templates.
+An attempt to improve our newsletter workflow. You can use SASS and Foundation WITHOUT ANY TABLES to write proper tested email templates.
 The buildsystem does all the ugly stuff for you. Comes with browsersync and more.
 
-#### Installation
+### Installation
 1. Clone the develop branch of this repo.
 
 2. If you would like to build newsletters for a new project/client read on,
@@ -14,7 +14,7 @@ The buildsystem does all the ugly stuff for you. Comes with browsersync and more
 
 5. Navigate to the subfolder of the project and run `npm start` - this will start the buildsystem with a server and all the watchers.
 
-#### File Structure
+### File Structure
 
 Here's a breakdown of the files in the src folder:
 `assets/` 	: Sass and image files.
@@ -28,7 +28,7 @@ Everything runs through the buildsystem and you'll find the final newsletter htm
 Foundation for Emails includes many common elements needed to make HTML emails: a grid, typography styles, buttons, callouts, and more.
 Basically it's almost the same like Bootstrap, just some classnames are different.
 
-There's also a `default.html` - this is needed to create the table layout in the end. ###Just don't remove it!###
+There's also a `default.html` - this is needed to create the table layout in the end. ####Just don't remove it!####
 
 Further informations how to write it: [foundation documentation] (http://foundation.zurb.com/emails/docs/sass-guide.html)
 
