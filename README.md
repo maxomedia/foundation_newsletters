@@ -1,18 +1,23 @@
 # foundation_newsletters
-An attempt to improve our newsletter workflow. You can use SASS and Foundation WITHOUT ANY TABLES to write proper tested email templates.
+An attempt to improve our MXM newsletter workflow. You can use SASS and Foundation #WITHOUT ANY TABLES :tada: to write proper tested email templates.
 The buildsystem does all the ugly stuff for you. Comes with browsersync and more.
 
 ### Installation
-1. Clone the develop branch of this repo.
+1. If you need to build NEW newsletters for a project/client read on, to change a given project go to point 4.
 
-2. If you would like to build newsletters for a new project/client read on,
-	 otherwise, if you need to change something or build newsletters for an existing project, go to point 5.
+2. Make sure foundation-cli is installed globally -> `npm install -g foundation-cli`
 
-2. If you would like to build newsletters for a new project/client -> `npm install -g foundation-cli`
-3. Name the project like "Maxomedia Newsletters", "SBB" or what ever.
-4. Take a coffee, it will take a few minutes to download all the stuff...
+3. Navigate to the project folder and run -> `foundation new --framework emails`
 
-5. Navigate to the subfolder of the project and run `npm start` - this will start the buildsystem with a server and all the watchers.
+4. Follow the instructions in the cli.
+
+4. `npm install` and chill... it will take a few minutes to download and install all the stuff.
+
+5.  To start the buildsystem with a server and all the watchers run -> `npm start`
+
+### Production
+
+All done? Run `npm run build` to merge and minify all the ugly tables and inline styles you need. Have fun :)
 
 ### File Structure
 
@@ -31,8 +36,3 @@ Basically it's almost the same like Bootstrap, just some classnames are differen
 There's also a `default.html` - this is needed to create the table layout in the end. ####Just don't remove it!####
 
 Further informations how to write it: [foundation documentation] (http://foundation.zurb.com/emails/docs/sass-guide.html)
-
-### Production
-
-All done? Then run `npm run build` and it will generate all the ugly tables and inline styles you need. All minified in one line.
-Have fun :)
