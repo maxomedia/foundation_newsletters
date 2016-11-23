@@ -1,5 +1,5 @@
 # foundation_newsletters
-An attempt to improve our MXM newsletter workflow. You can use SASS and Foundation **WITHOUT ANY TABLES** :pray: to write proper tested email templates.
+An attempt to improve our MXM newsletter workflow. You can use SASS and Foundation **WITHOUT ANY TABLES** :raised_hands: to write proper tested email templates.
 The buildsystem does all the ugly stuff for you. Comes with browsersync and more.
 
 ### Installation
