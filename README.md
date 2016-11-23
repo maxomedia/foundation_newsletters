@@ -22,10 +22,10 @@ All done? Run `npm run build` to merge and minify all the ugly tables and inline
 ### File Structure
 
 Here's a breakdown of the files in the src folder:
-`assets/` 	: Sass and image files.
-`layouts`		: Boilerplate HTML that wraps all of your emails.
-`partials/` : Reusable chunks of HTML that can be injected into pages.
-`pages/` 		: HTML files for emails.
+--`assets/` 	: Sass and image files.
+--`layouts`		: Boilerplate HTML that wraps all of your emails.
+--`partials/` : Reusable chunks of HTML that can be injected into pages.
+--`pages/` 		: HTML files for emails.
 
 Everything runs through the buildsystem and you'll find the final newsletter html in the `dist` folder.
 
